@@ -1,3 +1,4 @@
+#Function to find the pair of numbers in a sorted array that sum target value
 def two_pointer(arr,target):
     left = 0
     right = len(arr)-1
