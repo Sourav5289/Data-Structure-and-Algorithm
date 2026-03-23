@@ -1,4 +1,11 @@
 #Function to find the pair of numbers in a sorted array that sum target value
+
+#This code uses the two-pointer technique to find two numbers in a sorted array that sum to a target.
+It starts with one pointer at the beginning and one at the end of the array.
+Based on the sum, it moves the left pointer forward or the right pointer backward.
+The algorithm is efficient with O(n) time and O(1) space complexity.
+
+
 def two_pointer(arr,target):
     left = 0
     right = len(arr)-1
