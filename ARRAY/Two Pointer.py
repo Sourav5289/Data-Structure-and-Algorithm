@@ -1,4 +1,4 @@
-#Function to find the pair of numbers in a sorted array that sum target value
+
 
 #This code uses the two-pointer technique to find two numbers in a sorted array that sum to a target.
 It starts with one pointer at the beginning and one at the end of the array.
