@@ -1,0 +1,15 @@
+class Kadane:
+    def __init__(self, arr):
+        self.arr = arr
+        self.max_sum = arr[0]
+        self.curr_sum = arr[0]
+
+    def compute(self):
+        for num in self.arr[1:]:
+            self.curr_sum = max(num, self.curr_sum + num)
+            self.max_sum = max(self.max_sum, self.curr_sum)
+        return self.max_sum
+
+# Usage
+solution = Kadane([-2, 1, -3, 4, -1, 2, 1, -5, 4])
+print(solution.compute())  # Output: 6
