@@ -1,1 +1,3 @@
 # Data-Structure-and-Algorithm
+
+This repository focuses on mastering Data Structures and Algorithms using Python. It explores how to implement fundamental structures like arrays, linked lists, stacks, and queues, along with essential algorithms for searching and sorting. The goal is to build strong problem-solving skills for technical interviews and optimize code for efficiency. Dive into the examples to understand time and space complexity in practice.
